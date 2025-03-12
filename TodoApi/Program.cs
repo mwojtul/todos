@@ -22,3 +22,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.RegisterTodoEndpoints();
 app.Run();
+
+public partial class Program { }
